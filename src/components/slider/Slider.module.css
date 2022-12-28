@@ -10,6 +10,7 @@
     width: 800px;
     flex-direction: row;
     overflow: hidden;
+    border-radius: 10px;
 }
 .container {
     transition: .5s transform ease;

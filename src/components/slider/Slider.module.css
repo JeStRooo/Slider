@@ -1,0 +1,20 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+}
+.slider__line {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    overflow: hidden;
+}
+.container {
+    transition: .5s transform ease;
+}
+.container img {
+    max-width: 800px;
+    border-radius: 10px;
+}
